@@ -1,0 +1,165 @@
+.container{
+    background-image: url(./image.jpg);
+   background-size: cover;
+    background-repeat: no-repeat;
+    height: 200px;
+    width: 400px;
+}
+.btn{
+    height: 38px;
+    width: 107px;
+    background-color: blue;
+    border: 2px solid whitesmoke;
+    border-radius: 15px;
+    position: absolute;
+    top: 107px;
+    left: 620px;
+    color: aliceblue;
+    font-size: 120%;
+}
+.main{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto auto auto;
+    background-color: aquamarine;
+    
+    height: 400px;
+    width: 500px;
+    border: 2px solid black;
+}
+.main1{
+    background-color: antiquewhite;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    border: 2px solid black;
+}
+.main2{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    background-color: antiquewhite;
+    grid-row-start: 2;
+    grid-row-end: 5;
+    border: 2px solid black;
+}
+.main3{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    background-color: antiquewhite;
+    grid-row-start: 2;
+    grid-row-end: 5;
+    border: 2px solid black;
+    
+}
+.contain{
+    background-image: url(./image1.jpg);
+    height: 100px;
+    width: 100px;
+    background-size: cover;
+    position: relative;
+    top: 30px;
+    left: 30px;
+}
+.buttons{
+    display: flex;
+    flex-direction: column;
+}
+.button{
+    height:30px ;
+    width: 150px;
+    background-color: brown;
+    border: 1px solid black;
+    margin: 20px;
+    position: relative;
+    left: 30px;
+    border-radius: 10px;
+    margin-top: 50px;
+}
+.flex-box{
+    display: flex;
+}
+.magic{
+    display: flex;
+}
+.login{
+    background-color: aliceblue;
+    border: 2px solid palevioletred;
+    height: 50px;
+    width: 125px;
+    border-radius: 2px;
+    color: palevioletred;
+    font-size: 20px;
+    margin: 10px;
+}
+.sign{
+    background-color: palevioletred;
+    height: 50px;
+    width: 125px;
+    color: aliceblue;
+    font-size: 20px;
+    border-radius: 2px;
+    border: 2px solid palevioletred;
+    margin: 10px;
+}
+@media only screen and (min-width:320px) and (max-width:480px) {
+    .login{
+        color: green;
+        display: block;
+    }
+    .sign{
+        color: green;
+        display: block;
+    }
+    .magic{
+        flex-direction: column;
+    }
+}
+@media only screen and (min-width:480px) and (max-width:1000px) {
+    .login{
+        color: red;
+        display: block;
+    }
+    .sign{
+        color: red;
+        display: block;
+    }
+    .magic{
+        flex-direction: column;
+    }
+}
+@media only screen and (min-width:1000px) and (max-width:1500px) {
+    .login{
+        color: blue;
+    }
+    .sign{
+        color: blue;
+    }
+    .magic{
+       display: flex;
+    }
+}
+
+
+
+.box{
+    height: 200px;
+    width: 200px;
+    background-color: aquamarine;
+margin: 10px;
+margin-left: 100px;
+}
+@media screen and (min-width:320px) and (max-width:480px){
+    .flex-box{
+        display:flex;
+        flex-direction: column;
+    }
+}
+.flex-boxes{
+    display: flex;
+}
+.box1{
+    height: 200px;
+    width: 200px;
+    background-color: rebeccapurple;
+margin: 10px;
+margin-left: 100px;
+}
